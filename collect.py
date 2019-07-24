@@ -1,5 +1,6 @@
 # collect.py
 # 执行spark-submit collect.py 输出结果
+# 返回RDD中的所有元素
 try:
     sc.stop()  
 except:

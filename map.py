@@ -22,3 +22,7 @@ words_map = words.map(lambda x: (x, 1))
 mapping = words_map.collect()
 print("Key value pair -> %s" % (mapping))
 sc.stop()
+
+"""
+Key value pair -> [('scala', 1), ('java', 1), ('hadoop', 1), ('spark', 1), ('akka', 1), ('spark vs hadoop', 1), ('pyspark', 1), ('pyspark and spark', 1)]
+"""

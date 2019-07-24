@@ -1,5 +1,6 @@
 # count.py
 # 执行spark-submit count.py，也将会输出结果
+# 返回RDD中的元素个数
 try:
     sc.stop()  
 except:
